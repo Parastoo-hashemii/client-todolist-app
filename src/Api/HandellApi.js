@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:5000";
+const url = "https://todolist-server-8iae.onrender.com";
 export const getAllToDo = async (setToDo) => {
   await axios.get(url).then((data) => {
     // console.log(data);
